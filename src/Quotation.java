@@ -1,7 +1,9 @@
 public class Quotation {
-    String quote = "Welcome to Sun!";
+    String quote = "“The only true wisdom is knowing that you know nothing.”";
+    String author = "Socrates";
 
     public void display() {
         System.out.println(quote);
+        System.out.println("- " + author);
     }
 }
